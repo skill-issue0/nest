@@ -3,7 +3,7 @@ on: push
 
 jobs:
   test:
-    runs-on: ubuntu-20.04-4core-16gb
+    runs-on: neggawatt
     steps:
       - name: test L
         run: echo hi
